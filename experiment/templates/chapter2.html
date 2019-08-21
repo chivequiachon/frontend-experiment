@@ -1,0 +1,165 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Bare - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{% static '/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <style>
+    pre {
+      margin-top: 3.44rem;
+    }
+
+    blockquote {
+      margin-top: 1.25rem;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <header class="col-md-12">
+          <h1>A simple landing page example</h1>
+          <h2>Sub title for support</h2>
+          <a class="btn btn-primary btn-md" href="#" role="button">Link</a>
+        </header>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 offset-4">
+        <h4>Some text with <small>secondary text</small></h4>
+      </div>
+      <div class="col-md-4">
+        <h4>
+          Add to your favorites
+          <small>
+            <kbd><kbd>ctrl</kbd> + <kbd>d</kbd></kbd>
+          </small>
+        </h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4" style="">
+        <pre>&lt;p&gt;I love programming!&lt;/p&gt;
+&lt;p&gt;This paragraph is on my landing page&lt;/p&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;p&gt;Bootstrap by example&lt;/p&gt;
+        </pre>
+      </div>
+      <div class="col-md-8">
+        <img src="{% static '/imgs/center.png' %}" class="img-responsive">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <img src="{% static '/imgs/bs.png' %}" class="img-responsive">
+      </div>
+      <div class="col-md-6">
+        <blockquote>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+          erat a ante.</p>
+          <footer>Testimonial from someone at <cite title="Source Title">Source
+          Title</cite></footer>
+        </blockquote>
+      </div>
+      <div class="col-md-3">
+        <img src="{% static '/imgs/packt.png' %}" class="img-responsive">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <p class="text-left"><code>&lt;Left&gt;</code></p>
+      </div>
+      <div class="col-md-3">
+        <p class="text-center">Center</p>
+      </div>
+      <div class="col-md-3">
+        <p class="text-justify">Justify</p>
+      </div>
+      <div class="col-md-3">
+        <p class="text-right">Right</p>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-3">
+        <h3>Lowercase</h3>
+        <p class="text-lowercase">
+        Lorem ipsum dolor ... consequat.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Uppercase</h3>
+            <p class="text-uppercase">
+            Lorem ipsum dolor ... consequat.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h3>Capitalize</h3>
+            <p class="text-capitalize">
+            Lorem ipsum dolor ... consequat.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h3>Strong and italic</h3>
+        <p>
+          <strong>Lorem ipsum</strong> dolor ... <em>consequat</em>.
+        </p>
+      </div>
+    </div>
+
+    <footer class="row jumbotron">
+      <div class="col-md-2">
+        <img src="{% static '/imgs/logo.png' %}" >
+      </div>
+      <div class="col-md-7">
+        <ul class="list-inline list-unstyled">
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">Packt publisher</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Bootstrap</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <address>
+          <strong>Name, Inc.</strong><br>
+          Address line 1<br>
+          Address line 2<br>
+          <abbr title="Phone">P:</abbr> (123) 456-7890
+        </address>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static '/bootstrap/js/jquery.slim.min.js' %}"></script>
+  <script src="{% static '/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+</body>
+
+</html>
